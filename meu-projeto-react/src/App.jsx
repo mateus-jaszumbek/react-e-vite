@@ -6,7 +6,7 @@ import Search from './components/Search';
 import Filter from './components/filter';
 
 function App() {
-    const [todos, setTodos] = useState([
+    const [todos, setTodos] = useState([ 
         {
             id: 1,
             text: "criar funcionalidade x no sistema",
